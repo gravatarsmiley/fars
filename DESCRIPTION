@@ -1,0 +1,18 @@
+Package: fars
+Type: Package
+Title: Package for FARS accident data analysis, Summarization and Visualization
+Date: MAR-28-2018
+Version: 0.1.0
+Depends: R (>= 3.4.3)
+Author: Susmit Sarker <unnammed@yahoo.com>
+Imports: dplyr, maps, readr, tidyr, magrittr
+Maintainer: Susmit Sarker <unnammed@yahoo.com>
+Description: Data Reading, Summarization and Visualization for US National Highway Traffic Safety Administration's Fatality Analysis Reporting System (FARS).
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+URL: https://github.com/umutkahramankaptan/farspkg
+Suggests: knitr, testthat, rmarkdown, utils
+VignetteBuilder: utils,
+    knitr
